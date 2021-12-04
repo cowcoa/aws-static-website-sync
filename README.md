@@ -4,6 +4,7 @@ This script can help you achieve this goal. It can synchronize files in local fo
 The script will also record the updated objects in S3 bucket and invalidate the files cached in CloudFront.
 
 ## Usage
+1. Put this script into the root directory of your S3 static website.
 1. Adjust parameters in the script(including S3 bucket name, CloudFront distribution ID, AWS CLI credential profile, etc.).
 2. Run script:
     > ./s3_static_website_sync.sh
